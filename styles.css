@@ -1,0 +1,8192 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #262626;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+.wrapper .main_content.table{ 
+	color: #262626;
+	display:table;
+        margin: 0px auto;
+}
+.wrapper .main_content .horizontal-list ul{  
+	min-width: 696px;
+        list-style: none;
+        padding-top: 50px;
+}
+.wrapper .main_content .horizontal-list ul li{
+	display: inline;
+}
+.github-btn{
+		
+	transition: all 2s;
+ 	position: absolute;
+ 	display: inline-block;
+	font-size: 10px;
+ 	text-decoration: none;
+	margin-top: 1%;
+	width: 15%;
+	text-align: center;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px; 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.github-btn span{
+
+        display: block;
+
+	padding: 0px 0px;
+}
+.github-btn:hover{	
+        width: 9%;
+	color: yellow;	
+}
+
+.wrapper .sidebar{
+  width: auto;
+  height: auto;
+  background: #262626;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+	padding: 25px 1px;
+	font-size: 10px;
+	border-bottom: 1px solid #bdb8d7;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 15px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  background: #262626;
+  width: 100%;
+  
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #262626;
+  color: #fff;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #fff;
+  line-height: 25px;
+  background: #262626;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+#section1{
+	height: 1200px;
+	background: #262626;
+	display: inline-block;
+	width: 100%;
+}
+
+#section1 .table{ 
+	color: #262626;
+	display: table;
+        margin: 0px 0px;
+}
+#section1 .horizontal-list ul{  
+	min-width: 696px;
+        list-style: none;
+        padding-top: 50px;
+}
+#section1 .horizontal-list ul li{
+	display: inline;
+}
+/*
+#section1 .github-btn{
+	
+ 	position: relative;
+ 	display: inline-block;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+ 	margin-top: 15%;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+#section1 .github-btn span{
+
+        display: block;
+
+	padding: 8px 20px;
+}
+*/
+
+#section1 .linked-btn{
+	
+ 	position: absolute;
+	text-align: center;
+	margin-top: 6%;
+	width: 15%;
+ 	display: inline-block;
+	font-size: 10px;
+ 	text-decoration: none;
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;	
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+#section1 .linked-btn span{
+
+        display: block;
+
+	padding: 0px 0px;
+}
+#section1 .linked-btn:hover{	
+        width: 9%;
+	color: yellow;	
+}
+
+#section1 .logo img{
+ 	width: 15%;
+ 	position: absolute;
+        margin-top: 10%;
+	left: 17.5%;
+	transition: all 0.5s;
+}
+#section1 .logo img:hover{
+ 	width: 45px;
+}
+
+#section1 .logo2 img{
+ 	
+	transition: all 0.5s;
+	width: 15%;
+ 	position: absolute;
+        margin-top: 87.5%;
+	left: 67.5%;
+}
+#section1 .logo2 img:hover{
+ 	width: 43px;
+}
+
+#section1 .logo3 img{
+ 	width: 18%;
+	transition: all 0.5s;
+ 	position: absolute;
+        margin-top: 35%;
+	left: 16%;
+}
+#section1 .logo3 img:hover{
+ 	width: 49px;
+}
+
+#section1 .logo4 img{
+ 	width: 13%;
+	
+	transition: all 0.5s;
+ 	position: absolute;
+        margin-top: 35%;
+	left: 43.5%;
+}
+#section1 .logo4 img:hover{
+ 	width: 37px;
+}
+
+#section1 .logo5 img{
+ 	width: 15%;
+ 	position: absolute;
+        margin-top: 110%;
+
+	transition: all 0.5s;
+	left: 17.5%;
+}
+#section1 .logo5 img:hover{
+ 	width: 41px;
+}
+
+#section1 .logo6 img{
+ 	width: 16.5%;
+ 	position: absolute;
+        margin-top: 9.75%;
+	left: 66.75%;
+
+	transition: all 0.5s;
+}
+#section1 .logo6 img:hover{
+ 	width: 49px;
+}
+
+#section1 .logo7 img{
+ 	height: 10%;
+ 	position: absolute;
+        margin-top: 60%;
+	left: 15%;
+
+	transition: all 0.5s;
+}
+#section1 .logo7 img:hover{
+ 	height: 46px;
+}
+
+#section1 .logo8 img{
+ 	width: 19%;
+ 	position: absolute;
+        margin-top: 9%;
+	left: 40.5%;
+	transition: all 0.5s;
+}
+#section1 .logo8 img:hover{
+ 	width: 53px;
+}
+
+#section1 .logo9 img{
+ 	width: 27.5%;
+ 	position: absolute;
+        margin-top: 90%;
+	left: 36.25%;
+	transition: all 0.5s;
+
+}
+#section1 .logo9 img:hover{
+ 	width: 89px;
+}
+
+#section1 .logo11 img{
+	width: 15%;
+	position: absolute;
+	margin-top: 112%;
+	left: 42.5%;
+	transition: all 0.5s;
+}
+#section1 .logo11 img:hover{
+ 	width: 54px;
+}
+
+#section1 .logo12 img{
+	width: 20%;
+	position: absolute;
+	margin-top: 34%;
+	left: 65%;
+	transition: all 0.5s;
+}
+#section1 .logo12 img:hover{
+ 	width: 53px;
+}
+
+#section1 .logo13 img{
+	width: 17.5%;
+	position: absolute;
+	margin-top: 111%;
+	left: 66.25%;
+	transition: all 0.5s;
+}
+#section1 .logo13 img:hover{
+ 	width: 64px;
+}
+
+#section1 .logo14 img{
+	width: 25%;
+	position: absolute;
+	margin-top: 85.5%;
+	left: 12.5%;
+	transition: all 0.5s;
+}
+#section1 .logo14 img:hover{
+ 	width: 84px;
+}
+
+#section1 .main_content2 h2{
+	top: 40%;
+	text-align: left;
+	right: 40%;
+	color: #fff;
+	
+}
+
+#section1 #one{
+	margin-top: 20%;
+	width: 60%;
+	left: 20%;	
+	text-align: center;
+	position: absolute;
+	color: #ffd;
+	font-size: 20px;
+}
+#section1 #two{
+    font-family: sans-serif;
+    color: #ffd;
+    font-size: 40px;
+    margin-top: 100%;
+    text-align: center;
+}	
+#section2{
+	height: 4400px;
+	background: #262626;
+	display: inline-block;
+	width: 100%;
+}
+.PPgithub-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 60%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+	transition: all 2s;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPgithub2-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 220%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub2-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub2-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPgithub3-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 380%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub3-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub3-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPgithub4-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 570%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+	transition: all 2s;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub4-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub4-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPgithub5-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 770%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+	transition: all 2s;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub5-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub5-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPsite-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 60%;
+	text-align: center;
+	width: 30%;
+	left: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+	transition: all 2s;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPsite-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPsite-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP2site-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 220%;
+	text-align: center;
+	width: 30%;
+	left: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP2site-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PP2site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP3site-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 380%;
+	text-align: center;
+	width: 30%;
+	left: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP3site-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PP3site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP4site-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 570%;
+	text-align: center;
+	width: 30%;
+	left: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP4site-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PP4site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP5site-btn{
+	
+	transition: all 2s;
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 770%;
+	text-align: center;
+	width: 30%;
+	right: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP5site-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PP5site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP6site-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 957.5%;
+	text-align: center;
+	width: 30%;
+	right: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP6site-btn span{	
+        display: block;
+	padding: 8px 0px;
+}
+.PP6site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+#section2 #one{
+	margin-top: 75%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+#section2 #two{
+	margin-top: 10%;
+	color: #ffd;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twothr{
+	margin-top: 170%;
+	color: #ffd;
+	font-size: 30px;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twofour{
+	margin-top: 330%;
+	color: #ffd;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twofive{
+	margin-top: 505%;
+	color: #ffd;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twosix{
+	margin-top: 720%;
+	color: #ffd;
+	font-size: 30px;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twoseven{
+	margin-top: 895%;
+	color: #ffd;
+	font-size: 25px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twoeight{
+	margin-top: 905%;
+	color: #ffd;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+#section2 #thr{
+	margin-top: 235%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+#section2 #four{
+	margin-top: 395%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+
+#section2 #five{
+	margin-top: 585%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+
+#section2 #six{
+	margin-top: 785%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+
+#section2 #seven{
+	margin-top: 975%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+
+#section2 .logo10 img{
+ 	width: 65%;
+	position: absolute;
+        margin-top: 20%;
+	left: 17.5%;
+
+}
+
+#section2 .logo15 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 180%;
+	left: 17.5%;
+
+}
+
+#section2 .logo16 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 340%;
+	left: 17.5%;
+
+}
+
+#section2 .logo17 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 515%;
+	left: 17.5%;
+}
+
+#section2 .logo18 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 730%;
+	left: 17.5%;
+
+}
+
+#section2 .logo19 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 915%;
+	left: 17.5%;
+}
+
+#section3{
+	height: 1150px;
+	background: lightgray;
+	display: inline-block;
+	width: 100%;
+}
+#section3 #iframe1{
+position: absolute;
+width: 65%;
+left: 17.5%;
+height: 100%;
+}
+#section4{
+	height: 700px;
+	background: #262626;
+	display: inline-block;
+	width: 100%;
+}
+#section4 .name{
+    	width: 20%;
+    	position: absolute;
+    	left: 30%;
+    	margin-top: 65%;
+}
+#section4 .email{
+    width: 20%;
+    position: absolute;
+    left: 30%;
+    margin-top: 70%;
+}
+#section4 .subject{
+width: 20%;
+    position: absolute;
+    left: 30%;
+    margin-top: 75%;
+}
+#section4 .message{
+	width: 42.5%;
+    position: absolute;
+    left: 30%;
+    margin-top: 80%;
+    height: 20%;
+}
+#section4 .submit{
+width: 20%;
+    position: absolute;
+    left: 50.5%;
+    margin-top: 70%;
+}
+#section4 .status{
+	width: 30%;
+	text-align: center;
+    position: absolute;
+    left: 10%;
+    margin-top: 30%;
+	color: white;
+}
+#section4 #one{
+	position: absolute;
+	transition: 2s;
+	left: 17.5%;
+	padding: 5px;
+	width: 65%;
+	margin-top: 5%;	
+	text-align: left;
+	color: #ffd;
+	border-style: dotted;
+	border-color: #ffd;	
+	font-size: 20px;
+}
+#section4 #one:hover{
+	padding: 10px;
+	background-color: #1c1c1c;
+	color: #fffff1;
+	border-style: solid;
+}
+h1{
+	margin-top: 5%;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+}
+
+
+@media only screen and (min-width: 395px) {
+
+body{
+   background-color: #262626;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+.wrapper .main_content.table{ 
+	color: #262626;
+	display:table;
+        margin: 0px auto;
+}
+.wrapper .main_content .horizontal-list ul{  
+	min-width: 696px;
+        list-style: none;
+        padding-top: 50px;
+}
+.wrapper .main_content .horizontal-list ul li{
+	display: inline;
+}
+.github-btn{
+		
+	transition: all 2s;
+ 	position: absolute;
+ 	display: inline-block;
+	font-size: 10px;
+ 	text-decoration: none;
+	margin-top: 1%;
+	width: 15%;
+	text-align: center;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px; 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.github-btn span{
+
+        display: block;
+
+	padding: 0px 0px;
+}
+.github-btn:hover{	
+        width: 9%;
+	color: yellow;	
+}
+
+.wrapper .sidebar{
+  width: auto;
+  height: auto;
+  background: #262626;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+	padding: 25px 1px;
+	font-size: 10px;
+	border-bottom: 1px solid #bdb8d7;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 15px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  background: #262626;
+  width: 100%;
+  
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #262626;
+  color: #fff;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #fff;
+  line-height: 25px;
+  background: #262626;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+#section1{
+	height: 1200px;
+	background: #262626;
+	display: inline-block;
+	width: 100%;
+}
+
+#section1 .table{ 
+	color: #262626;
+	display: table;
+        margin: 0px 0px;
+}
+#section1 .horizontal-list ul{  
+	min-width: 696px;
+        list-style: none;
+        padding-top: 50px;
+}
+#section1 .horizontal-list ul li{
+	display: inline;
+}
+/*
+#section1 .github-btn{
+	
+ 	position: relative;
+ 	display: inline-block;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+ 	margin-top: 15%;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+#section1 .github-btn span{
+
+        display: block;
+
+	padding: 8px 20px;
+}
+*/
+
+#section1 .linked-btn{
+	
+ 	position: absolute;
+	text-align: center;
+	margin-top: 6%;
+	width: 15%;
+ 	display: inline-block;
+	font-size: 10px;
+ 	text-decoration: none;
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;	
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+#section1 .linked-btn span{
+
+        display: block;
+
+	padding: 0px 0px;
+}
+#section1 .linked-btn:hover{	
+        width: 9%;
+	color: yellow;	
+}
+
+#section1 .logo img{
+ 	width: 15%;
+ 	position: absolute;
+        margin-top: 10%;
+	left: 17.5%;
+	transition: all 0.5s;
+}
+#section1 .logo img:hover{
+ 	width: 45px;
+}
+
+#section1 .logo2 img{
+ 	
+	transition: all 0.5s;
+	width: 15%;
+ 	position: absolute;
+        margin-top: 87.5%;
+	left: 67.5%;
+}
+#section1 .logo2 img:hover{
+ 	width: 43px;
+}
+
+#section1 .logo3 img{
+ 	width: 18%;
+	transition: all 0.5s;
+ 	position: absolute;
+        margin-top: 35%;
+	left: 16%;
+}
+#section1 .logo3 img:hover{
+ 	width: 49px;
+}
+
+#section1 .logo4 img{
+ 	width: 13%;
+	
+	transition: all 0.5s;
+ 	position: absolute;
+        margin-top: 35%;
+	left: 43.5%;
+}
+#section1 .logo4 img:hover{
+ 	width: 37px;
+}
+
+#section1 .logo5 img{
+ 	width: 15%;
+ 	position: absolute;
+        margin-top: 110%;
+
+	transition: all 0.5s;
+	left: 17.5%;
+}
+#section1 .logo5 img:hover{
+ 	width: 41px;
+}
+
+#section1 .logo6 img{
+ 	width: 16.5%;
+ 	position: absolute;
+        margin-top: 9.75%;
+	left: 66.75%;
+
+	transition: all 0.5s;
+}
+#section1 .logo6 img:hover{
+ 	width: 49px;
+}
+
+#section1 .logo7 img{
+ 	height: 10%;
+ 	position: absolute;
+        margin-top: 60%;
+	left: 15%;
+
+	transition: all 0.5s;
+}
+#section1 .logo7 img:hover{
+ 	height: 46px;
+}
+
+#section1 .logo8 img{
+ 	width: 19%;
+ 	position: absolute;
+        margin-top: 9%;
+	left: 40.5%;
+	transition: all 0.5s;
+}
+#section1 .logo8 img:hover{
+ 	width: 53px;
+}
+
+#section1 .logo9 img{
+ 	width: 27.5%;
+ 	position: absolute;
+        margin-top: 90%;
+	left: 36.25%;
+	transition: all 0.5s;
+
+}
+#section1 .logo9 img:hover{
+ 	width: 89px;
+}
+
+#section1 .logo11 img{
+	width: 15%;
+	position: absolute;
+	margin-top: 112%;
+	left: 42.5%;
+	transition: all 0.5s;
+}
+#section1 .logo11 img:hover{
+ 	width: 54px;
+}
+
+#section1 .logo12 img{
+	width: 20%;
+	position: absolute;
+	margin-top: 34%;
+	left: 65%;
+	transition: all 0.5s;
+}
+#section1 .logo12 img:hover{
+ 	width: 53px;
+}
+
+#section1 .logo13 img{
+	width: 17.5%;
+	position: absolute;
+	margin-top: 111%;
+	left: 66.25%;
+	transition: all 0.5s;
+}
+#section1 .logo13 img:hover{
+ 	width: 64px;
+}
+
+#section1 .logo14 img{
+	width: 25%;
+	position: absolute;
+	margin-top: 85.5%;
+	left: 12.5%;
+	transition: all 0.5s;
+}
+#section1 .logo14 img:hover{
+ 	width: 84px;
+}
+
+#section1 .main_content2 h2{
+	top: 40%;
+	text-align: left;
+	right: 40%;
+	color: #fff;
+	
+}
+
+#section1 #one{
+	margin-top: 20%;
+	width: 60%;
+	left: 20%;	
+	text-align: center;
+	position: absolute;
+	color: #ffd;
+	font-size: 20px;
+}
+#section1 #two{
+    font-family: sans-serif;
+    color: #ffd;
+    font-size: 40px;
+    margin-top: 100%;
+    text-align: center;
+}	
+#section2{
+	height: 4600px;
+	background: #262626;
+	display: inline-block;
+	width: 100%;
+}
+.PPgithub-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 60%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+	transition: all 2s;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPgithub2-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 220%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub2-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub2-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPgithub3-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 380%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub3-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub3-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPgithub4-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 570%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+	transition: all 2s;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub4-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub4-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPgithub5-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 770%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+	transition: all 2s;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub5-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub5-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPsite-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 60%;
+	text-align: center;
+	width: 30%;
+	left: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+	transition: all 2s;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPsite-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPsite-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP2site-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 220%;
+	text-align: center;
+	width: 30%;
+	left: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP2site-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PP2site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP3site-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 380%;
+	text-align: center;
+	width: 30%;
+	left: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP3site-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PP3site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP4site-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 570%;
+	text-align: center;
+	width: 30%;
+	left: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP4site-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PP4site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP5site-btn{
+	
+	transition: all 2s;
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 770%;
+	text-align: center;
+	width: 30%;
+	right: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP5site-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PP5site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP6site-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 957.5%;
+	text-align: center;
+	width: 30%;
+	right: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP6site-btn span{	
+        display: block;
+	padding: 8px 0px;
+}
+.PP6site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+#section2 #one{
+	margin-top: 75%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+#section2 #two{
+	margin-top: 10%;
+	color: #ffd;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twothr{
+	margin-top: 170%;
+	color: #ffd;
+	font-size: 30px;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twofour{
+	margin-top: 330%;
+	color: #ffd;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twofive{
+	margin-top: 505%;
+	color: #ffd;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twosix{
+	margin-top: 720%;
+	color: #ffd;
+	font-size: 30px;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twoseven{
+	margin-top: 895%;
+	color: #ffd;
+	font-size: 25px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twoeight{
+	margin-top: 905%;
+	color: #ffd;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+#section2 #thr{
+	margin-top: 235%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+#section2 #four{
+	margin-top: 395%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+
+#section2 #five{
+	margin-top: 585%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+
+#section2 #six{
+	margin-top: 785%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+
+#section2 #seven{
+	margin-top: 975%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+
+#section2 .logo10 img{
+ 	width: 65%;
+	position: absolute;
+        margin-top: 20%;
+	left: 17.5%;
+
+}
+
+#section2 .logo15 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 180%;
+	left: 17.5%;
+
+}
+
+#section2 .logo16 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 340%;
+	left: 17.5%;
+
+}
+
+#section2 .logo17 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 515%;
+	left: 17.5%;
+}
+
+#section2 .logo18 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 730%;
+	left: 17.5%;
+
+}
+
+#section2 .logo19 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 915%;
+	left: 17.5%;
+}
+
+#section3{
+	height: 1150px;
+	background: lightgray;
+	display: inline-block;
+	width: 100%;
+}
+#section3 #iframe1{
+position: absolute;
+width: 65%;
+left: 17.5%;
+height: 100%;
+}
+#section4{
+	height: 700px;
+	background: #262626;
+	display: inline-block;
+	width: 100%;
+}
+#section4 .name{
+    	width: 20%;
+    	position: absolute;
+    	left: 30%;
+    	margin-top: 65%;
+}
+#section4 .email{
+    width: 20%;
+    position: absolute;
+    left: 30%;
+    margin-top: 70%;
+}
+#section4 .subject{
+width: 20%;
+    position: absolute;
+    left: 30%;
+    margin-top: 75%;
+}
+#section4 .message{
+	width: 42.5%;
+    position: absolute;
+    left: 30%;
+    margin-top: 80%;
+    height: 20%;
+}
+#section4 .submit{
+width: 20%;
+    position: absolute;
+    left: 50.5%;
+    margin-top: 70%;
+}
+#section4 .status{
+	width: 30%;
+	text-align: center;
+    position: absolute;
+    left: 10%;
+    margin-top: 30%;
+	color: white;
+}
+#section4 #one{
+	position: absolute;
+	transition: 2s;
+	left: 17.5%;
+	padding: 5px;
+	width: 65%;
+	margin-top: 5%;	
+	text-align: left;
+	color: #ffd;
+	border-style: dotted;
+	border-color: #ffd;	
+	font-size: 20px;
+}
+#section4 #one:hover{
+	padding: 10px;
+	background-color: #1c1c1c;
+	color: #fffff1;
+	border-style: solid;
+}
+h1{
+	margin-top: 5%;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+}
+}
+
+
+@media only screen and (min-width: 430px) {
+
+body{
+   background-color: #262626;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+.wrapper .main_content.table{ 
+	color: #262626;
+	display:table;
+        margin: 0px auto;
+}
+.wrapper .main_content .horizontal-list ul{  
+	min-width: 696px;
+        list-style: none;
+        padding-top: 50px;
+}
+.wrapper .main_content .horizontal-list ul li{
+	display: inline;
+}
+.github-btn{
+		
+	transition: all 2s;
+ 	position: absolute;
+ 	display: inline-block;
+	font-size: 10px;
+ 	text-decoration: none;
+	margin-top: 1%;
+	width: 15%;
+	text-align: center;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px; 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.github-btn span{
+
+        display: block;
+
+	padding: 0px 0px;
+}
+.github-btn:hover{	
+        width: 9%;
+	color: yellow;	
+}
+
+.wrapper .sidebar{
+  width: auto;
+  height: auto;
+  background: #262626;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+	padding: 25px 1px;
+	font-size: 10px;
+	border-bottom: 1px solid #bdb8d7;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 15px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  background: #262626;
+  width: 100%;
+  
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #262626;
+  color: #fff;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #fff;
+  line-height: 25px;
+  background: #262626;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+#section1{
+	height: 1200px;
+	background: #262626;
+	display: inline-block;
+	width: 100%;
+}
+
+#section1 .table{ 
+	color: #262626;
+	display: table;
+        margin: 0px 0px;
+}
+#section1 .horizontal-list ul{  
+	min-width: 696px;
+        list-style: none;
+        padding-top: 50px;
+}
+#section1 .horizontal-list ul li{
+	display: inline;
+}
+/*
+#section1 .github-btn{
+	
+ 	position: relative;
+ 	display: inline-block;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+ 	margin-top: 15%;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+#section1 .github-btn span{
+
+        display: block;
+
+	padding: 8px 20px;
+}
+*/
+
+#section1 .linked-btn{
+	
+ 	position: absolute;
+	text-align: center;
+	margin-top: 6%;
+	width: 15%;
+ 	display: inline-block;
+	font-size: 10px;
+ 	text-decoration: none;
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;	
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+#section1 .linked-btn span{
+
+        display: block;
+
+	padding: 0px 0px;
+}
+#section1 .linked-btn:hover{	
+        width: 9%;
+	color: yellow;	
+}
+
+#section1 .logo img{
+ 	width: 15%;
+ 	position: absolute;
+        margin-top: 10%;
+	left: 17.5%;
+	transition: all 0.5s;
+}
+#section1 .logo img:hover{
+ 	width: 45px;
+}
+
+#section1 .logo2 img{
+ 	
+	transition: all 0.5s;
+	width: 15%;
+ 	position: absolute;
+        margin-top: 87.5%;
+	left: 67.5%;
+}
+#section1 .logo2 img:hover{
+ 	width: 43px;
+}
+
+#section1 .logo3 img{
+ 	width: 18%;
+	transition: all 0.5s;
+ 	position: absolute;
+        margin-top: 35%;
+	left: 16%;
+}
+#section1 .logo3 img:hover{
+ 	width: 49px;
+}
+
+#section1 .logo4 img{
+ 	width: 13%;
+	
+	transition: all 0.5s;
+ 	position: absolute;
+        margin-top: 35%;
+	left: 43.5%;
+}
+#section1 .logo4 img:hover{
+ 	width: 37px;
+}
+
+#section1 .logo5 img{
+ 	width: 15%;
+ 	position: absolute;
+        margin-top: 110%;
+
+	transition: all 0.5s;
+	left: 17.5%;
+}
+#section1 .logo5 img:hover{
+ 	width: 41px;
+}
+
+#section1 .logo6 img{
+ 	width: 16.5%;
+ 	position: absolute;
+        margin-top: 9.75%;
+	left: 66.75%;
+
+	transition: all 0.5s;
+}
+#section1 .logo6 img:hover{
+ 	width: 49px;
+}
+
+#section1 .logo7 img{
+ 	height: 10%;
+ 	position: absolute;
+        margin-top: 60%;
+	left: 15%;
+
+	transition: all 0.5s;
+}
+#section1 .logo7 img:hover{
+ 	height: 46px;
+}
+
+#section1 .logo8 img{
+ 	width: 19%;
+ 	position: absolute;
+        margin-top: 9%;
+	left: 40.5%;
+	transition: all 0.5s;
+}
+#section1 .logo8 img:hover{
+ 	width: 53px;
+}
+
+#section1 .logo9 img{
+ 	width: 27.5%;
+ 	position: absolute;
+        margin-top: 90%;
+	left: 36.25%;
+	transition: all 0.5s;
+
+}
+#section1 .logo9 img:hover{
+ 	width: 89px;
+}
+
+#section1 .logo11 img{
+	width: 15%;
+	position: absolute;
+	margin-top: 112%;
+	left: 42.5%;
+	transition: all 0.5s;
+}
+#section1 .logo11 img:hover{
+ 	width: 54px;
+}
+
+#section1 .logo12 img{
+	width: 20%;
+	position: absolute;
+	margin-top: 34%;
+	left: 65%;
+	transition: all 0.5s;
+}
+#section1 .logo12 img:hover{
+ 	width: 53px;
+}
+
+#section1 .logo13 img{
+	width: 17.5%;
+	position: absolute;
+	margin-top: 111%;
+	left: 66.25%;
+	transition: all 0.5s;
+}
+#section1 .logo13 img:hover{
+ 	width: 64px;
+}
+
+#section1 .logo14 img{
+	width: 25%;
+	position: absolute;
+	margin-top: 85.5%;
+	left: 12.5%;
+	transition: all 0.5s;
+}
+#section1 .logo14 img:hover{
+ 	width: 84px;
+}
+
+#section1 .main_content2 h2{
+	top: 40%;
+	text-align: left;
+	right: 40%;
+	color: #fff;
+	
+}
+
+#section1 #one{
+	margin-top: 20%;
+	width: 60%;
+	left: 20%;	
+	text-align: center;
+	position: absolute;
+	color: #ffd;
+	font-size: 20px;
+}
+#section1 #two{
+    font-family: sans-serif;
+    color: #ffd;
+    font-size: 40px;
+    margin-top: 100%;
+    text-align: center;
+}	
+#section2{
+	height: 4900px;
+	background: #262626;
+	display: inline-block;
+	width: 100%;
+}
+.PPgithub-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 60%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+	transition: all 2s;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPgithub2-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 220%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub2-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub2-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPgithub3-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 380%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub3-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub3-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPgithub4-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 570%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+	transition: all 2s;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub4-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub4-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPgithub5-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 770%;
+	right: 17.5%;
+	width: 30%;
+	text-align: center;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+	transition: all 2s;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPgithub5-btn span{
+
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPgithub5-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PPsite-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 60%;
+	text-align: center;
+	width: 30%;
+	left: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+	transition: all 2s;
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PPsite-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PPsite-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP2site-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 220%;
+	text-align: center;
+	width: 30%;
+	left: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP2site-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PP2site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP3site-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 380%;
+	text-align: center;
+	width: 30%;
+	left: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP3site-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PP3site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP4site-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 570%;
+	text-align: center;
+	width: 30%;
+	left: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP4site-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PP4site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP5site-btn{
+	
+	transition: all 2s;
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 770%;
+	text-align: center;
+	width: 30%;
+	right: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP5site-btn span{
+	
+        display: block;
+
+	padding: 8px 0px;
+}
+.PP5site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+.PP6site-btn{
+	
+ 	position: absolute;
+ 	display: inline-block;
+	margin-top: 957.5%;
+	text-align: center;
+	width: 30%;
+	right: 17.5%;
+	font-size: 15;
+ 	text-decoration: none;
+	transition: all 2s;
+	color: #fff;
+	border: 2px solid transparent;
+ 	border-radius: 30px;
+ 
+        background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+        background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.PP6site-btn span{	
+        display: block;
+	padding: 8px 0px;
+}
+.PP6site-btn:hover{	
+        width: 35%;
+	color: yellow;	
+}
+
+#section2 #one{
+	margin-top: 75%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+#section2 #two{
+	margin-top: 10%;
+	color: #ffd;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twothr{
+	margin-top: 170%;
+	color: #ffd;
+	font-size: 30px;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twofour{
+	margin-top: 330%;
+	color: #ffd;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twofive{
+	margin-top: 505%;
+	color: #ffd;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twosix{
+	margin-top: 720%;
+	color: #ffd;
+	font-size: 30px;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twoseven{
+	margin-top: 895%;
+	color: #ffd;
+	font-size: 25px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#section2 #twoeight{
+	margin-top: 905%;
+	color: #ffd;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+#section2 #thr{
+	margin-top: 235%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+#section2 #four{
+	margin-top: 395%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+
+#section2 #five{
+	margin-top: 585%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+
+#section2 #six{
+	margin-top: 785%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+
+#section2 #seven{
+	margin-top: 975%;	
+	text-align: left;
+	color: #ffd;
+	padding: 5px;
+	font-size: 16px;
+	border-color: #ffd;
+	border: #ffd;
+	border-style: dotted;
+	height: auto;
+	width: 65%;
+	right: 17.5%;
+	position: absolute;
+}
+
+#section2 .logo10 img{
+ 	width: 65%;
+	position: absolute;
+        margin-top: 20%;
+	left: 17.5%;
+
+}
+
+#section2 .logo15 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 180%;
+	left: 17.5%;
+
+}
+
+#section2 .logo16 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 340%;
+	left: 17.5%;
+
+}
+
+#section2 .logo17 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 515%;
+	left: 17.5%;
+}
+
+#section2 .logo18 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 730%;
+	left: 17.5%;
+
+}
+
+#section2 .logo19 img{
+ 	width: 65%;
+ 	position: absolute;
+        margin-top: 915%;
+	left: 17.5%;
+}
+
+#section3{
+	height: 1150px;
+	background: lightgray;
+	display: inline-block;
+	width: 100%;
+}
+#section3 #iframe1{
+position: absolute;
+width: 65%;
+left: 17.5%;
+height: 100%;
+}
+#section4{
+	height: 700px;
+	background: #262626;
+	display: inline-block;
+	width: 100%;
+}
+#section4 .name{
+    	width: 20%;
+    	position: absolute;
+    	left: 30%;
+    	margin-top: 65%;
+}
+#section4 .email{
+    width: 20%;
+    position: absolute;
+    left: 30%;
+    margin-top: 70%;
+}
+#section4 .subject{
+width: 20%;
+    position: absolute;
+    left: 30%;
+    margin-top: 75%;
+}
+#section4 .message{
+	width: 42.5%;
+    position: absolute;
+    left: 30%;
+    margin-top: 80%;
+    height: 20%;
+}
+#section4 .submit{
+width: 20%;
+    position: absolute;
+    left: 50.5%;
+    margin-top: 70%;
+}
+#section4 .status{
+	width: 30%;
+	text-align: center;
+    position: absolute;
+    left: 10%;
+    margin-top: 30%;
+	color: white;
+}
+#section4 #one{
+	position: absolute;
+	transition: 2s;
+	left: 17.5%;
+	padding: 5px;
+	width: 65%;
+	margin-top: 5%;	
+	text-align: left;
+	color: #ffd;
+	border-style: dotted;
+	border-color: #ffd;	
+	font-size: 20px;
+}
+#section4 #one:hover{
+	padding: 10px;
+	background-color: #1c1c1c;
+	color: #fffff1;
+	border-style: solid;
+}
+h1{
+	margin-top: 5%;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+}
+}
+
+
+ @media only screen and (min-width: 460px) {
+
+	body{
+	   background-color: #262626;
+	}
+
+	.wrapper{
+	  display: flex;
+	  position: relative;
+	}
+	.wrapper .main_content.table{ 
+		color: #262626;
+		display:table;
+		margin: 0px auto;
+	}
+	.wrapper .main_content .horizontal-list ul{  
+		min-width: 696px;
+		list-style: none;
+		padding-top: 50px;
+	}
+	.wrapper .main_content .horizontal-list ul li{
+		display: inline;
+	}
+	.github-btn{
+			
+		transition: all 2s;
+		position: absolute;
+		display: inline-block;
+		font-size: 10px;
+		text-decoration: none;
+		margin-top: 1%;
+		width: 15%;
+		text-align: center;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px; 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.github-btn span{
+
+		display: block;
+
+		padding: 0px 0px;
+	}
+	.github-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.wrapper .sidebar{
+	  width: auto;
+	  height: auto;
+	  background: #262626;
+	  padding: 30px 0px;
+	  position: fixed;
+	}
+
+	.wrapper .sidebar h2{
+	  color: #fff;
+	  text-transform: uppercase;
+	  text-align: center;
+	  margin-bottom: 30px;
+	}
+
+	.wrapper .sidebar ul li{
+	  padding: 25px 1px;
+	  font-size: 10px;
+	  border-bottom: 1px solid #bdb8d7;
+	  border-bottom: 1px solid rgba(0,0,0,0.05);
+	  border-top: 1px solid rgba(255,255,255,0.05);
+	}    
+
+	.wrapper .sidebar ul li a{
+	  color: #bdb8d7;
+	  display: block;
+	}
+
+	.wrapper .sidebar ul li a .fas{
+	  width: 15px;
+	}
+
+	.wrapper .sidebar ul li:hover{
+	  background-color: #594f8d;
+	}
+	    
+	.wrapper .sidebar ul li:hover a{
+	  color: #fff;
+	}
+	 
+	.wrapper .sidebar .social_media{
+	  position: absolute;
+	  bottom: 0;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  display: flex;
+	}
+
+	.wrapper .sidebar .social_media a{
+	  display: block;
+	  width: 40px;
+	  background: #594f8d;
+	  height: 40px;
+	  line-height: 45px;
+	  text-align: center;
+	  margin: 0 5px;
+	  color: #bdb8d7;
+	  border-top-left-radius: 5px;
+	  border-top-right-radius: 5px;
+	}
+
+	.wrapper .main_content{
+	  background: #262626;
+	  width: 100%;
+	  
+	}
+
+	.wrapper .main_content .header{
+	  padding: 20px;
+	  background: #262626;
+	  color: #fff;
+	  border-bottom: 1px solid #e0e4e8;
+	}
+
+	.wrapper .main_content .info{
+	  margin: 20px;
+	  color: #fff;
+	  line-height: 25px;
+	  background: #262626;
+	}
+
+	.wrapper .main_content .info div{
+	  margin-bottom: 20px;
+	}
+	#section1{
+		height: 900px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+
+	#section1 .table{ 
+		color: #262626;
+		display: table;
+		margin: 0px 0px;
+	}
+	#section1 .horizontal-list ul{  
+		min-width: 696px;
+		list-style: none;
+		padding-top: 50px;
+	}
+	#section1 .horizontal-list ul li{
+		display: inline;
+	}
+	/*
+	#section1 .github-btn{
+		
+		position: relative;
+		display: inline-block;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		margin-top: 15%;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+
+	#section1 .github-btn span{
+
+		display: block;
+
+		padding: 8px 20px;
+	}
+	*/
+
+	#section1 .linked-btn{
+		
+		position: absolute;
+		text-align: center;
+		margin-top: 6% !important;
+		width: 15%;
+		display: inline-block;
+		font-size: 10px;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		margin-top: 10%;
+		
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+
+	#section1 .linked-btn span{
+
+		display: block;
+
+		padding: 0px 0px;
+	}
+	#section1 .linked-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	#section1 .logo img{
+		width: 10%;
+		position: absolute;
+		margin-top: 1%;
+		left: 11.667%;
+		transition: all 0.5s;
+	}
+	#section1 .logo img:hover{
+		width: 45px;
+	}
+
+	#section1 .logo2 img{
+		
+		transition: all 0.5s;
+		width: 10%;
+		position: absolute;
+		margin-top: 35%;
+		left: 45%;
+	}
+	#section1 .logo2 img:hover{
+		width: 43px;
+	}
+
+	#section1 .logo3 img{
+		width: 11%;
+
+		transition: all 0.5s;
+		position: absolute;
+		margin-top: 17.5%;
+		left: 11.167%;
+	}
+	#section1 .logo3 img:hover{
+		width: 49px;
+	}
+
+	#section1 .logo4 img{
+		width: 8%;
+		
+		transition: all 0.5s;
+		position: absolute;
+		margin-top: 17.5%;
+		left: 29.333%;
+	}
+	#section1 .logo4 img:hover{
+		width: 37px;
+	}
+
+	#section1 .logo5 img{
+		width: 10%;
+		position: absolute;
+		margin-top: 1.2%;
+
+		transition: all 0.5s;
+		left: 78.333%;
+	}
+	#section1 .logo5 img:hover{
+		width: 41px;
+	}
+
+	#section1 .logo6 img{
+		width: 11%;
+		position: absolute;
+		margin-top: .8%;
+		left: 44.5%;
+
+		transition: all 0.5s;
+	}
+	#section1 .logo6 img:hover{
+		width: 49px;
+	}
+
+	#section1 .logo7 img{
+		width: 25%;
+		height: auto;
+		position: absolute;
+		margin-top: 35%;
+		left: 12.5%;
+
+		transition: all 0.5s;
+	}
+	#section1 .logo7 img:hover{
+		height: 46px;
+	}
+
+	#section1 .logo8 img{
+		width: 12.5%;
+		position: absolute;
+		margin-top: .4%;
+		left: 27.079%;
+		transition: all 0.5s;
+	}
+	#section1 .logo8 img:hover{
+		width: 53px;
+	}
+
+	#section1 .logo9 img{
+		width: 20%;
+		position: absolute;
+		margin-top: 35%;
+		left: 65%;
+		transition: all 0.5s;
+
+	}
+	#section1 .logo9 img:hover{
+		width: 89px;
+	}
+
+	#section1 .logo11 img{
+		width: 10%;
+		position: absolute;
+		margin-top: 3%;
+		left: 61.667%;
+		transition: all 0.5s;
+	}
+	#section1 .logo11 img:hover{
+		width: 54px;
+	}
+
+	#section1 .logo12 img{
+		width: 12%;
+		position: absolute;
+		margin-top: 17%;
+		left: 44%;
+		transition: all 0.5s;
+	}
+	#section1 .logo12 img:hover{
+		width: 53px;
+	}
+
+	#section1 .logo13 img{
+		width: 10%;
+		position: absolute;
+		margin-top: 20%;
+		left: 61.667%;
+		transition: all 0.5s;
+	}
+	#section1 .logo13 img:hover{
+		width: 64px;
+	}
+
+	#section1 .logo14 img{
+		width: 13.33%;
+		position: absolute;
+		margin-top: 17.5%;
+		left: 76.667%;
+		transition: all 0.5s;
+	}
+	#section1 .logo14 img:hover{
+		width: 84px;
+	}
+
+	#section1 .main_content2 h2{
+		top: 40%;
+		text-align: left;
+		right: 40%;
+		color: #fff;
+		
+	}
+
+	#section1 #one{
+		margin-top: 5%;	
+		text-align: center;
+		color: #ffd;
+		font-size: 25px;
+	}
+	#section1 #two{
+	    font-family: sans-serif;
+	    color: #ffd;
+	    font-size: 40px;
+	    margin-top: 65%;
+	    text-align: center;
+	}	
+	#section2{
+		height: 2700px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	.PPgithub-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 10%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub2-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 67.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub2-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub2-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub3-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 130%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub3-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub3-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub4-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 200%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub4-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub4-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub5-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 285%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub5-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub5-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPsite-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 17.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		left: auto;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPsite-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPsite-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP2site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 75%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP2site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP2site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP3site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 137.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP3site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP3site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP4site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 210%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP4site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP4site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP5site-btn{
+		
+		transition: all 2s;
+		position: absolute;
+		display: inline-block;
+		margin-top: 292.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP5site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP5site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP6site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 360%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 	left: auto;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP6site-btn span{	
+		display: block;
+		padding: 8px 0px;
+	}
+	.PP6site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	#section2 #one{
+		margin-top: 5%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 32.5%;
+		right: 22.5%;
+		position: absolute;
+	}
+	#section2 #two{
+		margin-top: 3%;
+		color: #ffd;
+		font-size: 15px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twothr{
+		margin-top: 60.5%;
+		color: #ffd;
+		font-size: 15px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twofour{
+		margin-top: 118%;
+		color: #ffd;
+		font-size: 13px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twofive{
+		margin-top: 188%;
+		color: #ffd;
+		font-size: 15px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twosix{
+		margin-top: 273%;
+		color: #ffd;
+		font-size: 15px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twoseven{
+		margin-top: 343%;
+		color: #ffd;
+		font-size: 13px;
+		width: 50%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twoeight{
+		margin-top: 349%;
+		color: #ffd;
+		font-size: 11px;
+		width: 50%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+
+	#section2 #thr{
+		margin-top: 62.5%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 32.5%;
+		right: 22.5%;
+		position: absolute;
+	}
+	#section2 #four{
+		margin-top: 120%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 32.5%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #five{
+		margin-top: 190%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 32.5%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #six{
+		margin-top: 275%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 32.5%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #seven{
+		margin-top: 345%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 32.5%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 .logo10 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 5%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo15 img{
+		height: auto;
+		width: 23% !important;
+
+		position: absolute;
+		margin-top: 62.5%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo16 img{
+		height: auto;
+		width: 23% !important;
+
+		position: absolute;
+		margin-top: 120%;
+		left: 20%;
+		width: auto
+	}
+
+	#section2 .logo17 img{
+		height: auto;
+		width: 25% !important;
+		position: absolute;
+		margin-top: 190%;
+		left: 18%;
+		width: auto
+	}
+
+	#section2 .logo18 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 275%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo19 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 355%;
+		left: 20%;
+		width: auto;
+
+	}
+
+
+	#section3{
+		height: 1150px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	#section3 #iframe1{
+	position: absolute;
+	width: 65%;
+	left: 17.5%;
+	height: 100%;
+	}
+	#section4{
+		height: 700px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	#section4 .name{
+		width: 20%;
+		position: absolute;
+		left: 40%;
+		margin-top: 5%;
+	}
+	#section4 .email{
+	    width: 20%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 7%;
+	}
+	#section4 .subject{
+	width: 20%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 9%;
+	}
+	#section4 .message{
+	width: 27.5%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 11%;
+	    height: 20%;
+	}
+	#section4 .submit{
+	width: 5%;
+	    position: absolute;
+	    left: 62.5%;
+	    margin-top: 5%;
+	}
+	#section4 .status{
+		width: 30%;
+		text-align: center;
+	    position: absolute;
+	    left: 65%;
+	    margin-top: 5%;
+		color: white;
+	}
+	#section4 #one{
+		position: absolute;
+		transition: 2s;
+		left: 18%;
+		padding: 5px;
+		width: 20%;
+		margin-top: 5%;	
+		text-align: left;
+		color: #ffd;
+		border-style: dotted;
+		border-color: #ffd;	
+		font-size: 11px;
+	}
+	#section4 #one:hover{
+		padding: 10px;
+		background-color: #1c1c1c;
+		color: #fffff1;
+		border-style: solid;
+	}
+	h1{
+		margin-top: 5%;
+		text-align: center;
+		color: #fff;
+		font-size: 65px;
+	}
+}
+
+
+
+ @media only screen and (min-width: 700px) {
+
+	body{
+	   background-color: #262626;
+	}
+
+	.wrapper{
+	  display: flex;
+	  position: relative;
+	}
+	.wrapper .main_content.table{ 
+		color: #262626;
+		display:table;
+		margin: 0px auto;
+	}
+	.wrapper .main_content .horizontal-list ul{  
+		min-width: 696px;
+		list-style: none;
+		padding-top: 50px;
+	}
+	.wrapper .main_content .horizontal-list ul li{
+		display: inline;
+	}
+	.github-btn{
+			
+		transition: all 2s;
+		position: absolute;
+		display: inline-block;
+		font-size: 10px;
+		text-decoration: none;
+		margin-top: 1%;
+		width: 15%;
+		text-align: center;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px; 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.github-btn span{
+
+		display: block;
+
+		padding: 0px 0px;
+	}
+	.github-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.wrapper .sidebar{
+	  width: auto;
+	  height: auto;
+	  background: #262626;
+	  padding: 30px 0px;
+	  position: fixed;
+	}
+
+	.wrapper .sidebar h2{
+	  color: #fff;
+	  text-transform: uppercase;
+	  text-align: center;
+	  margin-bottom: 30px;
+	}
+
+	.wrapper .sidebar ul li{
+	  padding: 25px 1px;
+	  font-size: 10px;
+	  border-bottom: 1px solid #bdb8d7;
+	  border-bottom: 1px solid rgba(0,0,0,0.05);
+	  border-top: 1px solid rgba(255,255,255,0.05);
+	}    
+
+	.wrapper .sidebar ul li a{
+	  color: #bdb8d7;
+	  display: block;
+	}
+
+	.wrapper .sidebar ul li a .fas{
+	  width: 15px;
+	}
+
+	.wrapper .sidebar ul li:hover{
+	  background-color: #594f8d;
+	}
+	    
+	.wrapper .sidebar ul li:hover a{
+	  color: #fff;
+	}
+	 
+	.wrapper .sidebar .social_media{
+	  position: absolute;
+	  bottom: 0;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  display: flex;
+	}
+
+	.wrapper .sidebar .social_media a{
+	  display: block;
+	  width: 40px;
+	  background: #594f8d;
+	  height: 40px;
+	  line-height: 45px;
+	  text-align: center;
+	  margin: 0 5px;
+	  color: #bdb8d7;
+	  border-top-left-radius: 5px;
+	  border-top-right-radius: 5px;
+	}
+
+	.wrapper .main_content{
+	  background: #262626;
+	  width: 100%;
+	  
+	}
+
+	.wrapper .main_content .header{
+	  padding: 20px;
+	  background: #262626;
+	  color: #fff;
+	  border-bottom: 1px solid #e0e4e8;
+	}
+
+	.wrapper .main_content .info{
+	  margin: 20px;
+	  color: #fff;
+	  line-height: 25px;
+	  background: #262626;
+	}
+
+	.wrapper .main_content .info div{
+	  margin-bottom: 20px;
+	}
+	#section1{
+		height: 1100px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+
+	#section1 .table{ 
+		color: #262626;
+		display: table;
+		margin: 0px 0px;
+	}
+	#section1 .horizontal-list ul{  
+		min-width: 696px;
+		list-style: none;
+		padding-top: 50px;
+	}
+	#section1 .horizontal-list ul li{
+		display: inline;
+	}
+	/*
+	#section1 .github-btn{
+		
+		position: relative;
+		display: inline-block;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		margin-top: 15%;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+
+	#section1 .github-btn span{
+
+		display: block;
+
+		padding: 8px 20px;
+	}
+	*/
+
+	#section1 .linked-btn{
+		
+		position: absolute;
+		text-align: center;
+		margin-top: 6% !important;
+		width: 15%;
+		display: inline-block;
+		font-size: 10px;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		margin-top: 10%;
+		
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+
+	#section1 .linked-btn span{
+
+		display: block;
+
+		padding: 0px 0px;
+	}
+	#section1 .linked-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	#section1 .logo img{
+		width: 10%;
+		position: absolute;
+		margin-top: 1%;
+		left: 11.667%;
+		transition: all 0.5s;
+	}
+	#section1 .logo img:hover{
+		width: 45px;
+	}
+
+	#section1 .logo2 img{
+		
+		transition: all 0.5s;
+		width: 10%;
+		position: absolute;
+		margin-top: 35%;
+		left: 45%;
+	}
+	#section1 .logo2 img:hover{
+		width: 43px;
+	}
+
+	#section1 .logo3 img{
+		width: 11%;
+
+		transition: all 0.5s;
+		position: absolute;
+		margin-top: 17.5%;
+		left: 11.167%;
+	}
+	#section1 .logo3 img:hover{
+		width: 49px;
+	}
+
+	#section1 .logo4 img{
+		width: 8%;
+		
+		transition: all 0.5s;
+		position: absolute;
+		margin-top: 17.5%;
+		left: 29.333%;
+	}
+	#section1 .logo4 img:hover{
+		width: 37px;
+	}
+
+	#section1 .logo5 img{
+		width: 10%;
+		position: absolute;
+		margin-top: 1.2%;
+
+		transition: all 0.5s;
+		left: 78.333%;
+	}
+	#section1 .logo5 img:hover{
+		width: 41px;
+	}
+
+	#section1 .logo6 img{
+		width: 11%;
+		position: absolute;
+		margin-top: .8%;
+		left: 44.5%;
+
+		transition: all 0.5s;
+	}
+	#section1 .logo6 img:hover{
+		width: 49px;
+	}
+
+	#section1 .logo7 img{
+		width: 25%;
+		height: auto;
+		position: absolute;
+		margin-top: 35%;
+		left: 12.5%;
+
+		transition: all 0.5s;
+	}
+	#section1 .logo7 img:hover{
+		height: 46px;
+	}
+
+	#section1 .logo8 img{
+		width: 12.5%;
+		position: absolute;
+		margin-top: .4%;
+		left: 27.079%;
+		transition: all 0.5s;
+	}
+	#section1 .logo8 img:hover{
+		width: 53px;
+	}
+
+	#section1 .logo9 img{
+		width: 20%;
+		position: absolute;
+		margin-top: 35%;
+		left: 65%;
+		transition: all 0.5s;
+
+	}
+	#section1 .logo9 img:hover{
+		width: 89px;
+	}
+
+	#section1 .logo11 img{
+		width: 10%;
+		position: absolute;
+		margin-top: 3%;
+		left: 61.667%;
+		transition: all 0.5s;
+	}
+	#section1 .logo11 img:hover{
+		width: 54px;
+	}
+
+	#section1 .logo12 img{
+		width: 12%;
+		position: absolute;
+		margin-top: 17%;
+		left: 44%;
+		transition: all 0.5s;
+	}
+	#section1 .logo12 img:hover{
+		width: 53px;
+	}
+
+	#section1 .logo13 img{
+		width: 10%;
+		position: absolute;
+		margin-top: 20%;
+		left: 61.667%;
+		transition: all 0.5s;
+	}
+	#section1 .logo13 img:hover{
+		width: 64px;
+	}
+
+	#section1 .logo14 img{
+		width: 13.33%;
+		position: absolute;
+		margin-top: 17.5%;
+		left: 76.667%;
+		transition: all 0.5s;
+	}
+	#section1 .logo14 img:hover{
+		width: 84px;
+	}
+
+	#section1 .main_content2 h2{
+		top: 40%;
+		text-align: left;
+		right: 40%;
+		color: #fff;
+		
+	}
+
+	#section1 #one{
+		margin-top: 5%;	
+		text-align: center;
+		color: #ffd;
+		font-size: 25px;
+	}
+	#section1 #two{
+	    font-family: sans-serif;
+	    color: #ffd;
+	    font-size: 40px;
+	    margin-top: 45%;
+	    text-align: center;
+	}	
+	#section2{
+		height: 2000px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	.PPgithub-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 7.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub2-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 37.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub2-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub2-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub3-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 67.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub3-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub3-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub4-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 99.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub4-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub4-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub5-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 133.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub5-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub5-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPsite-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 12.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		left: auto;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPsite-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPsite-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP2site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 42.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP2site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP2site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP3site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 72.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP3site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP3site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP4site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 104.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP4site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP4site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP5site-btn{
+		
+		transition: all 2s;
+		position: absolute;
+		display: inline-block;
+		margin-top: 138.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP5site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP5site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP6site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 166.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 	left: auto;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP6site-btn span{	
+		display: block;
+		padding: 8px 0px;
+	}
+	.PP6site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	#section2 #one{
+		margin-top: 5%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 32.5%;
+		right: 22.5%;
+		position: absolute;
+	}
+	#section2 #two{
+		margin-top: 3%;
+		color: #ffd;
+		font-size: 20px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twothr{
+		margin-top: 33%;
+		color: #ffd;
+		font-size: 20px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twofour{
+		margin-top: 63%;
+		color: #ffd;
+		font-size: 18px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twofive{
+		margin-top: 93%;
+		color: #ffd;
+		font-size: 20px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twosix{
+		margin-top: 128%;
+		color: #ffd;
+		font-size: 20px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twoseven{
+		margin-top: 158%;
+		color: #ffd;
+		font-size: 18px;
+		width: 50%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twoeight{
+		margin-top: 160%;
+		color: #ffd;
+		font-size: 16px;
+		width: 50%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+
+	#section2 #thr{
+		margin-top: 35%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 32.5%;
+		right: 22.5%;
+		position: absolute;
+	}
+	#section2 #four{
+		margin-top: 65%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 32.5%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #five{
+		margin-top: 95%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 32.5%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #six{
+		margin-top: 130%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 32.5%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #seven{
+		margin-top: 160%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 32.5%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 .logo10 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 5%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo15 img{
+		height: auto;
+		width: 23% !important;
+
+		position: absolute;
+		margin-top: 35%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo16 img{
+		height: auto;
+		width: 23% !important;
+
+		position: absolute;
+		margin-top: 65%;
+		left: 20%;
+		width: auto
+	}
+
+	#section2 .logo17 img{
+		height: auto;
+		width: 25% !important;
+		position: absolute;
+		margin-top: 95%;
+		left: 18%;
+		width: auto
+	}
+
+	#section2 .logo18 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 130%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo19 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 162.5%;
+		left: 20%;
+		width: auto;
+
+	}
+
+
+	#section3{
+		height: 1150px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	#section3 #iframe1{
+	position: absolute;
+	width: 65%;
+	left: 17.5%;
+	height: 100%;
+	}
+	#section4{
+		height: 700px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	#section4 .name{
+		width: 20%;
+		position: absolute;
+		left: 40%;
+		margin-top: 5%;
+	}
+	#section4 .email{
+	    width: 20%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 7%;
+	}
+	#section4 .subject{
+	width: 20%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 9%;
+	}
+	#section4 .message{
+	width: 27.5%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 11%;
+	    height: 20%;
+	}
+	#section4 .submit{
+	width: 5%;
+	    position: absolute;
+	    left: 62.5%;
+	    margin-top: 5%;
+	}
+	#section4 .status{
+		width: 30%;
+		text-align: center;
+	    position: absolute;
+	    left: 65%;
+	    margin-top: 5%;
+		color: white;
+	}
+	#section4 #one{
+		position: absolute;
+		transition: 2s;
+		left: 18%;
+		padding: 5px;
+		width: 20%;
+		margin-top: 5%;	
+		text-align: left;
+		color: #ffd;
+		border-style: dotted;
+		border-color: #ffd;	
+		font-size: 11px;
+	}
+	#section4 #one:hover{
+		padding: 10px;
+		background-color: #1c1c1c;
+		color: #fffff1;
+		border-style: solid;
+	}
+	h1{
+		margin-top: 5%;
+		text-align: center;
+		color: #fff;
+		font-size: 65px;
+	}
+}
+
+
+
+ @media only screen and (min-width: 1000px) {
+
+	body{
+	   background-color: #262626;
+	}
+
+	.wrapper{
+	  display: flex;
+	  position: relative;
+	}
+	.wrapper .main_content.table{ 
+		color: #262626;
+		display:table;
+		margin: 0px auto;
+	}
+	.wrapper .main_content .horizontal-list ul{  
+		min-width: 696px;
+		list-style: none;
+		padding-top: 50px;
+	}
+	.wrapper .main_content .horizontal-list ul li{
+		display: inline;
+	}
+	.github-btn{
+			
+		transition: all 2s;
+		position: absolute;
+		display: inline-block;
+		font-size: initial;
+		text-decoration: none;
+		margin-top: 1%;
+		width: 7.5%;
+		text-align: center;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px; 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.github-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.github-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.wrapper .sidebar{
+	  width: 200px;
+	  height: 100%;
+	  background: #262626;
+	  padding: 30px 0px;
+	  position: fixed;
+	}
+
+	.wrapper .sidebar h2{
+	  color: #fff;
+	  text-transform: uppercase;
+	  text-align: center;
+	  margin-bottom: 30px;
+	}
+
+	.wrapper .sidebar ul li{
+	  padding: 15px;
+	  border-bottom: 1px solid #bdb8d7;
+	  border-bottom: 1px solid rgba(0,0,0,0.05);
+	  border-top: 1px solid rgba(255,255,255,0.05);
+	}    
+
+	.wrapper .sidebar ul li a{
+	  color: #bdb8d7;
+	  display: block;
+		font-size: initial;
+	}
+
+	.wrapper .sidebar ul li a .fas{
+	  width: 25px;
+	}
+
+	.wrapper .sidebar ul li:hover{
+	  background-color: #594f8d;
+	}
+	    
+	.wrapper .sidebar ul li:hover a{
+	  color: #fff;
+	}
+	 
+	.wrapper .sidebar .social_media{
+	  position: absolute;
+	  bottom: 0;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  display: flex;
+	}
+
+	.wrapper .sidebar .social_media a{
+	  display: block;
+	  width: 40px;
+	  background: #594f8d;
+	  height: 40px;
+	  line-height: 45px;
+	  text-align: center;
+	  margin: 0 5px;
+	  color: #bdb8d7;
+	  border-top-left-radius: 5px;
+	  border-top-right-radius: 5px;
+	}
+
+	.wrapper .main_content{
+	  background: #262626;
+	  width: 100%;
+	  
+	}
+
+	.wrapper .main_content .header{
+	  padding: 20px;
+	  background: #262626;
+	  color: #fff;
+	  border-bottom: 1px solid #e0e4e8;
+	}
+
+	.wrapper .main_content .info{
+	  margin: 20px;
+	  color: #fff;
+	  line-height: 25px;
+	  background: #262626;
+	}
+
+	.wrapper .main_content .info div{
+	  margin-bottom: 20px;
+	}
+	#section1{
+		height: 900px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+
+	#section1 .table{ 
+		color: #262626;
+		display: table;
+		margin: 0px 90%;
+	}
+	#section1 .horizontal-list ul{  
+		min-width: 696px;
+		list-style: none;
+		padding-top: 50px;
+	}
+	#section1 .horizontal-list ul li{
+		display: inline;
+	}
+	/*
+	#section1 .github-btn{
+		
+		position: relative;
+		display: inline-block;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		margin-top: 15%;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+
+	#section1 .github-btn span{
+
+		display: block;
+
+		padding: 8px 20px;
+	}
+	*/
+
+	#section1 .linked-btn{
+		
+		position: absolute;
+		text-align: center;
+		margin-top: 6%;
+		width: 7.5%;
+		display: inline-block;
+		font-size: initial;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		margin-top: 10%;
+		
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+
+	#section1 .linked-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	#section1 .linked-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	#section1 .logo img{
+		width: 36px;
+		position: absolute;
+		margin-top: 1%;
+		left: 18%;
+		transition: all 0.5s;
+	}
+	#section1 .logo img:hover{
+		width: 45px;
+	}
+
+	#section1 .logo2 img{
+		
+		transition: all 0.5s;
+		width: 34px;
+		position: absolute;
+		margin-top: 1%;
+		left: 59%;
+	}
+	#section1 .logo2 img:hover{
+		width: 43px;
+	}
+
+	#section1 .logo3 img{
+		width: 40px;
+
+		transition: all 0.5s;
+		position: absolute;
+		margin-top: .9%;
+		left: 35%;
+	}
+	#section1 .logo3 img:hover{
+		width: 49px;
+	}
+
+	#section1 .logo4 img{
+		width: 28px;
+		
+		transition: all 0.5s;
+		position: absolute;
+		margin-top: .9%;
+		left: 31.5%;
+	}
+	#section1 .logo4 img:hover{
+		width: 37px;
+	}
+
+	#section1 .logo5 img{
+		width: 32px;
+		position: absolute;
+		margin-top: 1%;
+
+		transition: all 0.5s;
+		left: 63.5%;
+	}
+	#section1 .logo5 img:hover{
+		width: 41px;
+	}
+
+	#section1 .logo6 img{
+		width: 40px;
+		position: absolute;
+		margin-top: 1.05%;
+		left: 27%;
+
+		transition: all 0.5s;
+	}
+	#section1 .logo6 img:hover{
+		width: 49px;
+	}
+
+	#section1 .logo7 img{
+		height: 40px;
+		position: absolute;
+		margin-top: 1%;
+		left: 42.5%;
+		width: auto;
+		transition: all 0.5s;
+	}
+	#section1 .logo7 img:hover{
+		height: 46px;
+	}
+
+	#section1 .logo8 img{
+		width: 44px;
+		position: absolute;
+		margin-top: 1%;
+		left: 22.5%;
+		transition: all 0.5s;
+	}
+	#section1 .logo8 img:hover{
+		width: 53px;
+	}
+
+	#section1 .logo9 img{
+		width: 80px;
+		position: absolute;
+		margin-top: 1.15%;
+		left: 51.5%;
+		transition: all 0.5s;
+
+	}
+	#section1 .logo9 img:hover{
+		width: 89px;
+	}
+
+	#section1 .logo11 img{
+		width: 45px;
+		position: absolute;
+		margin-top: 1%;
+		left: 67%;
+		transition: all 0.5s;
+	}
+	#section1 .logo11 img:hover{
+		width: 54px;
+	}
+
+	#section1 .logo12 img{
+		width: 44px;
+		position: absolute;
+		margin-top: .65%;
+		left: 38.5%;
+		transition: all 0.5s;
+	}
+	#section1 .logo12 img:hover{
+		width: 53px;
+	}
+
+	#section1 .logo13 img{
+		width: 55px;
+		position: absolute;
+		margin-top: 1%;
+		left: 72%;
+		transition: all 0.5s;
+	}
+	#section1 .logo13 img:hover{
+		width: 64px;
+	}
+
+	#section1 .logo14 img{
+		width: 75px;
+		position: absolute;
+		margin-top: .4%;
+		left: 77%;
+		transition: all 0.5s;
+	}
+	#section1 .logo14 img:hover{
+		width: 84px;
+	}
+
+	#section1 .main_content2 h2{
+		top: 40%;
+		text-align: left;
+		right: 40%;
+		color: #fff;
+		
+	}
+
+	#section1 #one{
+		margin-top: 5%;	
+		text-align: center;
+		color: #ffd;
+		font-size: 30px;
+	}
+	#section1 #two{
+	    font-family: sans-serif;
+	    color: #ffd;
+	    font-size: 40px;
+	    margin-top: 32%;
+	    text-align: center;
+	}	
+	#section2{
+		height: 1800px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	.PPgithub-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 7.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub2-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 27.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub2-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub2-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub3-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 47.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub3-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub3-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub4-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 69.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub4-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub4-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub5-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 93.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub5-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub5-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPsite-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 12.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		left: auto;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPsite-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPsite-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP2site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 32.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP2site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP2site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP3site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 52.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP3site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP3site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP4site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 74.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP4site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP4site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP5site-btn{
+		
+		transition: all 2s;
+		position: absolute;
+		display: inline-block;
+		margin-top: 98.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP5site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP5site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP6site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 116.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 	left: auto;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP6site-btn span{	
+		display: block;
+		padding: 8px 0px;
+	}
+	.PP6site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	#section2 #one{
+		margin-top: 5%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12.5px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 25%;
+		right: 22.5%;
+		position: absolute;
+	}
+	#section2 #two{
+		margin-top: 3%;
+		color: #ffd;
+		font-size: 25px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twothr{
+		margin-top: 23%;
+		color: #ffd;
+		font-size: 25px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twofour{
+		margin-top: 43%;
+		color: #ffd;
+		font-size: 25px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twofive{
+		margin-top: 63%;
+		color: #ffd;
+		font-size: 25px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twosix{
+		margin-top: 88%;
+		color: #ffd;
+		font-size: 25px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twoseven{
+		margin-top: 108%;
+		color: #ffd;
+		font-size: 25px;
+		width: 50%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twoeight{
+		margin-top: 110%;
+		color: #ffd;
+		font-size: 25px;
+		width: 50%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+
+	#section2 #thr{
+		margin-top: 25%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12.5px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 25%;
+		right: 22.5%;
+		position: absolute;
+	}
+	#section2 #four{
+		margin-top: 45%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12.5px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 25%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #five{
+		margin-top: 65%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12.5px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 25%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #six{
+		margin-top: 90%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12.5px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 25%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #seven{
+		margin-top: 110%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 12.5px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 25%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 .logo10 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 5%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo15 img{
+		height: auto;
+		width: 23% !important;
+
+		position: absolute;
+		margin-top: 25%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo16 img{
+		height: auto;
+		width: 23% !important;
+
+		position: absolute;
+		margin-top: 45%;
+		left: 20%;
+		width: auto
+	}
+
+	#section2 .logo17 img{
+		height: auto;
+		width: 25% !important;
+		position: absolute;
+		margin-top: 65%;
+		left: 18%;
+		width: auto
+	}
+
+	#section2 .logo18 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 90%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo19 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 112.5%;
+		left: 20%;
+		width: auto;
+
+	}
+
+
+	#section3{
+		height: 1150px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	#section3 #iframe1{
+	position: absolute;
+	width: 65%;
+	left: 17.5%;
+	height: 100%;
+	}
+	#section4{
+		height: 700px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	#section4 .name{
+		width: 20%;
+		position: absolute;
+		left: 40%;
+		margin-top: 5%;
+	}
+	#section4 .email{
+	    width: 20%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 7%;
+	}
+	#section4 .subject{
+	width: 20%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 9%;
+	}
+	#section4 .message{
+	width: 27.5%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 11%;
+	    height: 20%;
+	}
+	#section4 .submit{
+	width: 5%;
+	    position: absolute;
+	    left: 62.5%;
+	    margin-top: 5%;
+	}
+	#section4 .status{
+		width: 30%;
+		text-align: center;
+	    position: absolute;
+	    left: 65%;
+	    margin-top: 5%;
+		color: white;
+	}
+	#section4 #one{
+		position: absolute;
+		transition: 2s;
+		left: 18%;
+		padding: 5px;
+		width: 20%;
+		margin-top: 5%;	
+		text-align: left;
+		color: #ffd;
+		border-style: dotted;
+		border-color: #ffd;	
+		font-size: 16px;
+	}
+	#section4 #one:hover{
+		padding: 10px;
+		background-color: #1c1c1c;
+		color: #fffff1;
+		border-style: solid;
+	}
+	h1{
+		margin-top: 5%;
+		text-align: center;
+		color: #fff;
+		font-size: 65px;
+	}
+}
+
+
+
+
+
+
+ @media only screen and (min-width: 1200px) {
+
+	body{
+	   background-color: #262626;
+	}
+
+	.wrapper{
+	  display: flex;
+	  position: relative;
+	}
+	.wrapper .main_content.table{ 
+		color: #262626;
+		display:table;
+		margin: 0px auto;
+	}
+	.wrapper .main_content .horizontal-list ul{  
+		min-width: 696px;
+		list-style: none;
+		padding-top: 50px;
+	}
+	.wrapper .main_content .horizontal-list ul li{
+		display: inline;
+	}
+	.github-btn{
+			
+		transition: all 2s;
+		position: absolute;
+		display: inline-block;
+		font-size: initial;
+		text-decoration: none;
+		margin-top: 1%;
+		width: 7.5%;
+		text-align: center;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px; 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.github-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.github-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.wrapper .sidebar{
+	  width: 200px;
+	  height: 100%;
+	  background: #262626;
+	  padding: 30px 0px;
+	  position: fixed;
+	}
+
+	.wrapper .sidebar h2{
+	  color: #fff;
+	  text-transform: uppercase;
+	  text-align: center;
+	  margin-bottom: 30px;
+	}
+
+	.wrapper .sidebar ul li{
+	  padding: 15px;
+	  border-bottom: 1px solid #bdb8d7;
+	  border-bottom: 1px solid rgba(0,0,0,0.05);
+	  border-top: 1px solid rgba(255,255,255,0.05);
+	}    
+
+	.wrapper .sidebar ul li a{
+	  color: #bdb8d7;
+	  display: block;
+		font-size: initial;
+	}
+
+	.wrapper .sidebar ul li a .fas{
+	  width: 25px;
+	}
+
+	.wrapper .sidebar ul li:hover{
+	  background-color: #594f8d;
+	}
+	    
+	.wrapper .sidebar ul li:hover a{
+	  color: #fff;
+	}
+	 
+	.wrapper .sidebar .social_media{
+	  position: absolute;
+	  bottom: 0;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  display: flex;
+	}
+
+	.wrapper .sidebar .social_media a{
+	  display: block;
+	  width: 40px;
+	  background: #594f8d;
+	  height: 40px;
+	  line-height: 45px;
+	  text-align: center;
+	  margin: 0 5px;
+	  color: #bdb8d7;
+	  border-top-left-radius: 5px;
+	  border-top-right-radius: 5px;
+	}
+
+	.wrapper .main_content{
+	  background: #262626;
+	  width: 100%;
+	  
+	}
+
+	.wrapper .main_content .header{
+	  padding: 20px;
+	  background: #262626;
+	  color: #fff;
+	  border-bottom: 1px solid #e0e4e8;
+	}
+
+	.wrapper .main_content .info{
+	  margin: 20px;
+	  color: #fff;
+	  line-height: 25px;
+	  background: #262626;
+	}
+
+	.wrapper .main_content .info div{
+	  margin-bottom: 20px;
+	}
+	#section1{
+		height: 900px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+
+	#section1 .table{ 
+		color: #262626;
+		display: table;
+		margin: 0px 90%;
+	}
+	#section1 .horizontal-list ul{  
+		min-width: 696px;
+		list-style: none;
+		padding-top: 50px;
+	}
+	#section1 .horizontal-list ul li{
+		display: inline;
+	}
+	/*
+	#section1 .github-btn{
+		
+		position: relative;
+		display: inline-block;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		margin-top: 15%;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+
+	#section1 .github-btn span{
+
+		display: block;
+
+		padding: 8px 20px;
+	}
+	*/
+
+	#section1 .linked-btn{
+		
+		position: absolute;
+		text-align: center;
+		margin-top: 6%;
+		width: 7.5%;
+		display: inline-block;
+		font-size: initial;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		margin-top: 10%;
+		
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+
+	#section1 .linked-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	#section1 .linked-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	#section1 .logo img{
+		width: 36px;
+		position: absolute;
+		margin-top: 1%;
+		left: 18%;
+		transition: all 0.5s;
+	}
+	#section1 .logo img:hover{
+		width: 45px;
+	}
+
+	#section1 .logo2 img{
+		
+		transition: all 0.5s;
+		width: 34px;
+		position: absolute;
+		margin-top: 1%;
+		left: 59%;
+	}
+	#section1 .logo2 img:hover{
+		width: 43px;
+	}
+
+	#section1 .logo3 img{
+		width: 40px;
+
+		transition: all 0.5s;
+		position: absolute;
+		margin-top: .9%;
+		left: 35%;
+	}
+	#section1 .logo3 img:hover{
+		width: 49px;
+	}
+
+	#section1 .logo4 img{
+		width: 28px;
+		
+		transition: all 0.5s;
+		position: absolute;
+		margin-top: .9%;
+		left: 31.5%;
+	}
+	#section1 .logo4 img:hover{
+		width: 37px;
+	}
+
+	#section1 .logo5 img{
+		width: 32px;
+		position: absolute;
+		margin-top: 1%;
+
+		transition: all 0.5s;
+		left: 63.5%;
+	}
+	#section1 .logo5 img:hover{
+		width: 41px;
+	}
+
+	#section1 .logo6 img{
+		width: 40px;
+		position: absolute;
+		margin-top: 1.05%;
+		left: 27%;
+
+		transition: all 0.5s;
+	}
+	#section1 .logo6 img:hover{
+		width: 49px;
+	}
+
+	#section1 .logo7 img{
+		height: 40px;
+		position: absolute;
+		margin-top: 1%;
+		left: 42.5%;
+
+		transition: all 0.5s;
+	}
+	#section1 .logo7 img:hover{
+		height: 46px;
+	}
+
+	#section1 .logo8 img{
+		width: 44px;
+		position: absolute;
+		margin-top: 1%;
+		left: 22.5%;
+		transition: all 0.5s;
+	}
+	#section1 .logo8 img:hover{
+		width: 53px;
+	}
+
+	#section1 .logo9 img{
+		width: 80px;
+		position: absolute;
+		margin-top: 1.15%;
+		left: 51.5%;
+		transition: all 0.5s;
+
+	}
+	#section1 .logo9 img:hover{
+		width: 89px;
+	}
+
+	#section1 .logo11 img{
+		width: 45px;
+		position: absolute;
+		margin-top: 1%;
+		left: 67%;
+		transition: all 0.5s;
+	}
+	#section1 .logo11 img:hover{
+		width: 54px;
+	}
+
+	#section1 .logo12 img{
+		width: 44px;
+		position: absolute;
+		margin-top: .65%;
+		left: 38.5%;
+		transition: all 0.5s;
+	}
+	#section1 .logo12 img:hover{
+		width: 53px;
+	}
+
+	#section1 .logo13 img{
+		width: 55px;
+		position: absolute;
+		margin-top: 1%;
+		left: 72%;
+		transition: all 0.5s;
+	}
+	#section1 .logo13 img:hover{
+		width: 64px;
+	}
+
+	#section1 .logo14 img{
+		width: 75px;
+		position: absolute;
+		margin-top: .4%;
+		left: 77%;
+		transition: all 0.5s;
+	}
+	#section1 .logo14 img:hover{
+		width: 84px;
+	}
+
+	#section1 .main_content2 h2{
+		top: 40%;
+		text-align: left;
+		right: 40%;
+		color: #fff;
+		
+	}
+
+	#section1 #one{
+		margin-top: 5%;	
+		text-align: center;
+		color: #ffd;
+		font-size: 30px;
+	}
+	#section1 #two{
+	    font-family: sans-serif;
+	    color: #ffd;
+	    font-size: 40px;
+	    margin-top: 32%;
+	    text-align: center;
+	}	
+	#section2{
+		height: 2200px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	.PPgithub-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 7.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub2-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 27.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub2-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub2-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub3-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 47.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub3-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub3-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub4-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 69.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub4-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub4-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub5-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 93.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub5-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub5-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPsite-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 12.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		left: auto;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPsite-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPsite-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP2site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 32.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP2site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP2site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP3site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 52.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP3site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP3site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP4site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 74.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP4site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP4site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP5site-btn{
+		
+		transition: all 2s;
+		position: absolute;
+		display: inline-block;
+		margin-top: 98.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP5site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP5site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP6site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 116.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 	left: auto;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP6site-btn span{	
+		display: block;
+		padding: 8px 0px;
+	}
+	.PP6site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	#section2 #one{
+		margin-top: 5%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 16px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 30%;
+		right: 22.5%;
+		position: absolute;
+	}
+	#section2 #two{
+		margin-top: 3%;
+		color: #ffd;
+		font-size: 30px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twothr{
+		margin-top: 23%;
+		color: #ffd;
+		font-size: 30px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twofour{
+		margin-top: 43%;
+		color: #ffd;
+		font-size: 30px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twofive{
+		margin-top: 63%;
+		color: #ffd;
+		font-size: 30px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twosix{
+		margin-top: 88%;
+		color: #ffd;
+		font-size: 30px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twoseven{
+		margin-top: 108%;
+		color: #ffd;
+		font-size: 30px;
+		width: 50%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twoeight{
+		margin-top: 110%;
+		color: #ffd;
+		font-size: 30px;
+		width: 50%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+
+	#section2 #thr{
+		margin-top: 25%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 16px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 30%;
+		right: 22.5%;
+		position: absolute;
+	}
+	#section2 #four{
+		margin-top: 45%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 16px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 30%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #five{
+		margin-top: 65%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 16px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 30%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #six{
+		margin-top: 90%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 16px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 30%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #seven{
+		margin-top: 110%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 16px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 30%;
+		right: 22.5%;
+		position: absolute;
+	}
+	#section2 .logo10 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 5%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo15 img{
+		height: auto;
+		width: 23% !important;
+
+		position: absolute;
+		margin-top: 25%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo16 img{
+		height: auto;
+		width: 23% !important;
+
+		position: absolute;
+		margin-top: 45%;
+		left: 20%;
+		width: auto
+	}
+
+	#section2 .logo17 img{
+		height: auto;
+		width: 25% !important;
+		position: absolute;
+		margin-top: 65%;
+		left: 18%;
+		width: auto
+	}
+
+	#section2 .logo18 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 90%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo19 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 112.5%;
+		left: 20%;
+		width: auto;
+
+	}
+
+
+
+	#section3{
+		height: 1150px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	#section3 #iframe1{
+	position: absolute;
+	width: 65%;
+	left: 17.5%;
+	height: 100%;
+	}
+	#section4{
+		height: 700px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	#section4 .name{
+		width: 20%;
+		position: absolute;
+		left: 40%;
+		margin-top: 5%;
+	}
+	#section4 .email{
+	    width: 20%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 7%;
+	}
+	#section4 .subject{
+	width: 20%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 9%;
+	}
+	#section4 .message{
+	width: 27.5%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 11%;
+	    height: 20%;
+	}
+	#section4 .submit{
+	width: 5%;
+	    position: absolute;
+	    left: 62.5%;
+	    margin-top: 5%;
+	}
+	#section4 .status{
+		width: 30%;
+		text-align: center;
+	    position: absolute;
+	    left: 65%;
+	    margin-top: 5%;
+		color: white;
+	}
+	#section4 #one{
+		position: absolute;
+		transition: 2s;
+		left: 18%;
+		padding: 5px;
+		width: 20%;
+		margin-top: 5%;	
+		text-align: left;
+		color: #ffd;
+		border-style: dotted;
+		border-color: #ffd;	
+		font-size: 20px;
+	}
+	#section4 #one:hover{
+		padding: 10px;
+		background-color: #1c1c1c;
+		color: #fffff1;
+		border-style: solid;
+	}
+	h1{
+		margin-top: 5%;
+		text-align: center;
+		color: #fff;
+		font-size: 65px;
+	}
+}
+
+
+
+
+
+ @media only screen and (min-width: 2080px) {
+
+	body{
+	   background-color: #262626;
+	}
+
+	.wrapper{
+	  display: flex;
+	  position: relative;
+	}
+	.wrapper .main_content.table{ 
+		color: #262626;
+		display:table;
+		margin: 0px auto;
+	}
+	.wrapper .main_content .horizontal-list ul{  
+		min-width: 696px;
+		list-style: none;
+		padding-top: 50px;
+	}
+	.wrapper .main_content .horizontal-list ul li{
+		display: inline;
+	}
+	.github-btn{
+			
+		transition: all 2s;
+		position: absolute;
+		display: inline-block;
+		font-size: initial;
+		text-decoration: none;
+		margin-top: 1%;
+		width: 7.5%;
+		text-align: center;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px; 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.github-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.github-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.wrapper .sidebar{
+	  width: 200px;
+	  height: 100%;
+	  background: #262626;
+	  padding: 30px 0px;
+	  position: fixed;
+	}
+
+	.wrapper .sidebar h2{
+	  color: #fff;
+	  text-transform: uppercase;
+	  text-align: center;
+	  margin-bottom: 30px;
+	}
+
+	.wrapper .sidebar ul li{
+	  padding: 15px;
+	  border-bottom: 1px solid #bdb8d7;
+	  border-bottom: 1px solid rgba(0,0,0,0.05);
+	  border-top: 1px solid rgba(255,255,255,0.05);
+	}    
+
+	.wrapper .sidebar ul li a{
+	  color: #bdb8d7;
+	  display: block;
+		font-size: initial;
+	}
+
+	.wrapper .sidebar ul li a .fas{
+	  width: 25px;
+	}
+
+	.wrapper .sidebar ul li:hover{
+	  background-color: #594f8d;
+	}
+	    
+	.wrapper .sidebar ul li:hover a{
+	  color: #fff;
+	}
+	 
+	.wrapper .sidebar .social_media{
+	  position: absolute;
+	  bottom: 0;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  display: flex;
+	}
+
+	.wrapper .sidebar .social_media a{
+	  display: block;
+	  width: 40px;
+	  background: #594f8d;
+	  height: 40px;
+	  line-height: 45px;
+	  text-align: center;
+	  margin: 0 5px;
+	  color: #bdb8d7;
+	  border-top-left-radius: 5px;
+	  border-top-right-radius: 5px;
+	}
+
+	.wrapper .main_content{
+	  background: #262626;
+	  width: 100%;
+	  
+	}
+
+	.wrapper .main_content .header{
+	  padding: 20px;
+	  background: #262626;
+	  color: #fff;
+	  border-bottom: 1px solid #e0e4e8;
+	}
+
+	.wrapper .main_content .info{
+	  margin: 20px;
+	  color: #fff;
+	  line-height: 25px;
+	  background: #262626;
+	}
+
+	.wrapper .main_content .info div{
+	  margin-bottom: 20px;
+	}
+	#section1{
+		height: 900px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+
+	#section1 .table{ 
+		color: #262626;
+		display: table;
+		margin: 0px 90%;
+	}
+	#section1 .horizontal-list ul{  
+		min-width: 696px;
+		list-style: none;
+		padding-top: 50px;
+	}
+	#section1 .horizontal-list ul li{
+		display: inline;
+	}
+	/*
+	#section1 .github-btn{
+		
+		position: relative;
+		display: inline-block;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		margin-top: 15%;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+
+	#section1 .github-btn span{
+
+		display: block;
+
+		padding: 8px 20px;
+	}
+	*/
+
+	#section1 .linked-btn{
+		
+		position: absolute;
+		text-align: center;
+		margin-top: 6%;
+		width: 7.5%;
+		display: inline-block;
+		font-size: initial;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		margin-top: 10%;
+		
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+
+	#section1 .linked-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	#section1 .linked-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	#section1 .logo img{
+		width: 36px;
+		position: absolute;
+		margin-top: 1%;
+		left: 18%;
+		transition: all 0.5s;
+	}
+	#section1 .logo img:hover{
+		width: 45px;
+	}
+
+	#section1 .logo2 img{
+		
+		transition: all 0.5s;
+		width: 34px;
+		position: absolute;
+		margin-top: 1%;
+		left: 59%;
+	}
+	#section1 .logo2 img:hover{
+		width: 43px;
+	}
+
+	#section1 .logo3 img{
+		width: 40px;
+
+		transition: all 0.5s;
+		position: absolute;
+		margin-top: .9%;
+		left: 35%;
+	}
+	#section1 .logo3 img:hover{
+		width: 49px;
+	}
+
+	#section1 .logo4 img{
+		width: 28px;
+		
+		transition: all 0.5s;
+		position: absolute;
+		margin-top: .9%;
+		left: 31.5%;
+	}
+	#section1 .logo4 img:hover{
+		width: 37px;
+	}
+
+	#section1 .logo5 img{
+		width: 32px;
+		position: absolute;
+		margin-top: 1%;
+
+		transition: all 0.5s;
+		left: 63.5%;
+	}
+	#section1 .logo5 img:hover{
+		width: 41px;
+	}
+
+	#section1 .logo6 img{
+		width: 40px;
+		position: absolute;
+		margin-top: 1.05%;
+		left: 27%;
+
+		transition: all 0.5s;
+	}
+	#section1 .logo6 img:hover{
+		width: 49px;
+	}
+
+	#section1 .logo7 img{
+		height: 40px;
+		position: absolute;
+		margin-top: 1%;
+		left: 42.5%;
+
+		transition: all 0.5s;
+	}
+	#section1 .logo7 img:hover{
+		height: 46px;
+	}
+
+	#section1 .logo8 img{
+		width: 44px;
+		position: absolute;
+		margin-top: 1%;
+		left: 22.5%;
+		transition: all 0.5s;
+	}
+	#section1 .logo8 img:hover{
+		width: 53px;
+	}
+
+	#section1 .logo9 img{
+		width: 80px;
+		position: absolute;
+		margin-top: 1.15%;
+		left: 51.5%;
+		transition: all 0.5s;
+
+	}
+	#section1 .logo9 img:hover{
+		width: 89px;
+	}
+
+	#section1 .logo11 img{
+		width: 45px;
+		position: absolute;
+		margin-top: 1%;
+		left: 67%;
+		transition: all 0.5s;
+	}
+	#section1 .logo11 img:hover{
+		width: 54px;
+	}
+
+	#section1 .logo12 img{
+		width: 44px;
+		position: absolute;
+		margin-top: .65%;
+		left: 38.5%;
+		transition: all 0.5s;
+	}
+	#section1 .logo12 img:hover{
+		width: 53px;
+	}
+
+	#section1 .logo13 img{
+		width: 55px;
+		position: absolute;
+		margin-top: 1%;
+		left: 72%;
+		transition: all 0.5s;
+	}
+	#section1 .logo13 img:hover{
+		width: 64px;
+	}
+
+	#section1 .logo14 img{
+		width: 75px;
+		position: absolute;
+		margin-top: .4%;
+		left: 77%;
+		transition: all 0.5s;
+	}
+	#section1 .logo14 img:hover{
+		width: 84px;
+	}
+
+	#section1 .main_content2 h2{
+		top: 40%;
+		text-align: left;
+		right: 40%;
+		color: #fff;
+		
+	}
+
+	#section1 #one{
+		margin-top: 5%;	
+		text-align: center;
+		color: #ffd;
+		font-size: 30px;
+	}
+	#section1 #two{
+	    font-family: sans-serif;
+	    color: #ffd;
+	    font-size: 40px;
+	    margin-top: 32%;
+	    text-align: center;
+	}	
+	#section2{
+		height: 3400px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	.PPgithub-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 7.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub2-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 27.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub2-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub2-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub3-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 47.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub3-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub3-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub4-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 69.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub4-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub4-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPgithub5-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 93.5%;
+		right: 10%;
+		width: 7.5%;
+		text-align: center;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPgithub5-btn span{
+
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPgithub5-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PPsite-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 12.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		left: auto;
+		font-size: 15;
+		text-decoration: none;
+
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		transition: all 2s;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PPsite-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PPsite-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP2site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 32.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP2site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP2site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP3site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 52.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP3site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP3site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP4site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 74.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP4site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP4site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP5site-btn{
+		
+		transition: all 2s;
+		position: absolute;
+		display: inline-block;
+		margin-top: 98.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		left: auto;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP5site-btn span{
+		
+		display: block;
+
+		padding: 8px 0px;
+	}
+	.PP5site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	.PP6site-btn{
+		
+		position: absolute;
+		display: inline-block;
+		margin-top: 116.5%;
+		text-align: center;
+		width: 7.5%;
+		right: 10%;
+		font-size: 15;
+		text-decoration: none;
+		transition: all 2s;
+		color: #fff;
+		border: 2px solid transparent;
+		border-radius: 30px;
+	 	left: auto;
+		background-image: linear-gradient(#262626, #262626), radial-gradient(circle at top left, #fd00da, #19d7f8);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+	}
+	.PP6site-btn span{	
+		display: block;
+		padding: 8px 0px;
+	}
+	.PP6site-btn:hover{	
+		width: 9%;
+		color: yellow;	
+	}
+
+	#section2 #one{
+		margin-top: 5%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 16px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 30%;
+		right: 22.5%;
+		position: absolute;
+	}
+	#section2 #two{
+		margin-top: 3%;
+		color: #ffd;
+		font-size: 30px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twothr{
+		margin-top: 23%;
+		color: #ffd;
+		font-size: 30px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twofour{
+		margin-top: 43%;
+		color: #ffd;
+		font-size: 30px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twofive{
+		margin-top: 63%;
+		color: #ffd;
+		font-size: 30px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twosix{
+		margin-top: 88%;
+		color: #ffd;
+		font-size: 30px;
+		width: 40%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twoseven{
+		margin-top: 108%;
+		color: #ffd;
+		font-size: 30px;
+		width: 50%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+	#section2 #twoeight{
+		margin-top: 110%;
+		color: #ffd;
+		font-size: 30px;
+		width: 50%;
+		height: 20%;
+		left: 20%;
+		position: absolute;
+		text-align: initial;
+	}
+
+	#section2 #thr{
+		margin-top: 25%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 16px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 30%;
+		right: 22.5%;
+		position: absolute;
+	}
+	#section2 #four{
+		margin-top: 45%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 16px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 30%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #five{
+		margin-top: 65%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 16px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 30%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #six{
+		margin-top: 90%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 16px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 30%;
+		right: 22.5%;
+		position: absolute;
+	}
+
+	#section2 #seven{
+		margin-top: 110%;	
+		text-align: left;
+		color: #ffd;
+		padding: 5px;
+		font-size: 16px;
+		border-color: #ffd;
+		border: #ffd;
+		border-style: dotted;
+		height: auto;
+		width: 30%;
+		right: 22.5%;
+		position: absolute;
+	}
+	#section2 .logo10 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 5%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo15 img{
+		height: auto;
+		width: 23% !important;
+
+		position: absolute;
+		margin-top: 25%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo16 img{
+		height: auto;
+		width: 23% !important;
+
+		position: absolute;
+		margin-top: 45%;
+		left: 20%;
+		width: auto
+	}
+
+	#section2 .logo17 img{
+		height: auto;
+		width: 25% !important;
+		position: absolute;
+		margin-top: 65%;
+		left: 18%;
+		width: auto
+	}
+
+	#section2 .logo18 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 90%;
+		left: 20%;
+		width: auto;
+	}
+
+	#section2 .logo19 img{
+		height: auto;
+		width: 23% !important;
+		position: absolute;
+		margin-top: 112.5%;
+		left: 20%;
+		width: auto;
+
+	}
+
+
+
+	#section3{
+		height: 1500px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	#section3 #iframe1{
+	position: absolute;
+	width: 65%;
+	left: 17.5%;
+	height: 100%;
+	}
+	#section4{
+		height: 700px;
+		background: #262626;
+		display: inline-block;
+		width: 100%;
+	}
+	#section4 .name{
+		width: 20%;
+		position: absolute;
+		left: 40%;
+		margin-top: 5%;
+	}
+	#section4 .email{
+	    width: 20%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 7%;
+	}
+	#section4 .subject{
+	width: 20%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 9%;
+	}
+	#section4 .message{
+	width: 27.5%;
+	    position: absolute;
+	    left: 40%;
+	    margin-top: 11%;
+	    height: 20%;
+	}
+	#section4 .submit{
+	width: 5%;
+	    position: absolute;
+	    left: 62.5%;
+	    margin-top: 5%;
+	}
+	#section4 .status{
+		width: 30%;
+		text-align: center;
+	    position: absolute;
+	    left: 65%;
+	    margin-top: 5%;
+		color: white;
+	}
+	#section4 #one{
+		position: absolute;
+		transition: 2s;
+		left: 18%;
+		padding: 5px;
+		width: 20%;
+		margin-top: 5%;	
+		text-align: left;
+		color: #ffd;
+		border-style: dotted;
+		border-color: #ffd;	
+		font-size: 20px;
+	}
+	#section4 #one:hover{
+		padding: 10px;
+		background-color: #1c1c1c;
+		color: #fffff1;
+		border-style: solid;
+	}
+	h1{
+		margin-top: 5%;
+		text-align: center;
+		color: #fff;
+		font-size: 65px;
+	}
+}
