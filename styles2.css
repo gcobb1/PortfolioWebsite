@@ -288,9 +288,9 @@ body{
 }
 
 #section1 .logo7 img{
- 	height: 10%;
+	width: 45%;
  	position: absolute;
-        margin-top: 60%;
+        margin-top: 62%;
 	left: 15%;
 
 	transition: all 0.5s;
@@ -365,6 +365,16 @@ body{
 #section1 .logo14 img:hover{
  	width: 84px;
 }
+
+#section1 .logo20 img{
+	width: 15%;
+	position: absolute;
+	margin-top: 62%;
+	left: 67.5%;
+	transition: all 0.5s;
+
+}
+
 
 #section1 .main_content2 h2{
 	top: 40%;
@@ -683,7 +693,7 @@ body{
 	margin-top: 770%;
 	text-align: center;
 	width: 30%;
-	right: 17.5%;
+	right: 52.5%;
 	font-size: 15;
  	text-decoration: none;
 
@@ -713,7 +723,7 @@ body{
 	margin-top: 957.5%;
 	text-align: center;
 	width: 30%;
-	right: 17.5%;
+	right: 35%;
 	font-size: 15;
  	text-decoration: none;
 	transition: all 2s;
@@ -1292,9 +1302,9 @@ body{
 }
 
 #section1 .logo7 img{
- 	height: 10%;
+	width: 45%;
  	position: absolute;
-        margin-top: 60%;
+        margin-top: 62%;
 	left: 15%;
 
 	transition: all 0.5s;
@@ -1368,6 +1378,14 @@ body{
 }
 #section1 .logo14 img:hover{
  	width: 84px;
+}
+#section1 .logo20 img{
+	width: 15%;
+	position: absolute;
+	margin-top: 62%;
+	left: 67.5%;
+	transition: all 0.5s;
+
 }
 
 #section1 .main_content2 h2{
@@ -1687,7 +1705,7 @@ body{
 	margin-top: 770%;
 	text-align: center;
 	width: 30%;
-	right: 17.5%;
+	right: 52.5%;
 	font-size: 15;
  	text-decoration: none;
 
@@ -1717,7 +1735,7 @@ body{
 	margin-top: 957.5%;
 	text-align: center;
 	width: 30%;
-	right: 17.5%;
+	right:35%;
 	font-size: 15;
  	text-decoration: none;
 	transition: all 2s;
@@ -2297,9 +2315,9 @@ body{
 }
 
 #section1 .logo7 img{
- 	height: 10%;
+	width: 45%;
  	position: absolute;
-        margin-top: 60%;
+        margin-top: 62%;
 	left: 15%;
 
 	transition: all 0.5s;
@@ -2373,6 +2391,14 @@ body{
 }
 #section1 .logo14 img:hover{
  	width: 84px;
+}
+#section1 .logo20 img{
+	width: 15%;
+	position: absolute;
+	margin-top: 62%;
+	left: 67.5%;
+	transition: all 0.5s;
+
 }
 
 #section1 .main_content2 h2{
@@ -2692,7 +2718,7 @@ body{
 	margin-top: 770%;
 	text-align: center;
 	width: 30%;
-	right: 17.5%;
+	right: 52.5%;
 	font-size: 15;
  	text-decoration: none;
 
@@ -2722,7 +2748,7 @@ body{
 	margin-top: 957.5%;
 	text-align: center;
 	width: 30%;
-	right: 17.5%;
+	right: 35%;
 	font-size: 15;
  	text-decoration: none;
 	transition: all 2s;
@@ -3386,6 +3412,9 @@ h1{
 		width: 84px;
 	}
 
+	#section1 .logo20 img{
+		display: none;
+	}
 	#section1 .main_content2 h2{
 		top: 40%;
 		text-align: left;
@@ -4419,7 +4448,10 @@ h1{
 	#section1 .logo14 img:hover{
 		width: 84px;
 	}
-
+	
+	#section1 .logo20 img{
+		display: none;
+	}
 	#section1 .main_content2 h2{
 		top: 40%;
 		text-align: left;
@@ -5451,6 +5483,10 @@ h1{
 	}
 	#section1 .logo14 img:hover{
 		width: 84px;
+	}
+	
+	#section1 .logo20 img{
+		display: none;
 	}
 
 	#section1 .main_content2 h2{
@@ -6488,6 +6524,10 @@ h1{
 	#section1 .logo14 img:hover{
 		width: 84px;
 	}
+	
+	#section1 .logo20 img{
+		display: none;
+	}
 
 	#section1 .main_content2 h2{
 		top: 40%;
@@ -7522,6 +7562,10 @@ h1{
 	}
 	#section1 .logo14 img:hover{
 		width: 84px;
+	}
+	
+	#section1 .logo20 img{
+		display: none;
 	}
 
 	#section1 .main_content2 h2{
